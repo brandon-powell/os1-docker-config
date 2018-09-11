@@ -11,5 +11,5 @@ Docker setup files for OS1 class container.
 
 Files in working-dir will be accessible on both the host machine and in the container. Feel free to use the editor of your choice on your host machine while compiling and running code within the container. 
 
-3. When finished, exit out of the container bash shell and run: 
+4. When finished, exit out of the container bash shell and run: 
 ```docker-compose down```
