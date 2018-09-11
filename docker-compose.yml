@@ -1,0 +1,13 @@
+version: "3"
+services:
+  run-env:
+    build:
+      context: "."
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./working-dir:/working-dir
+    working_dir: "/working-dir"
+    entrypoint: "/bin/bash"
+    stdin_open: true
+    tty: true
